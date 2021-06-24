@@ -20,63 +20,150 @@
   <meta name="twitter:description" content="Oricono le site e-commerce pensé pour vous">
 
 	
-	<title>Oricono</title>
+	<title>Orinoco</title>
 </head>
 
 <body>
-
+<div class="page_container">
 <header>
   <div class="container">
-  
-      <div class="logo">
-       <img src="back-end/images/logo.png" >
-      </div> 
-    <p class="title">Une sélection de services designés pour vous</p>
-    <nav class="nav">  
-     
+  <header id="home" class="header">
+    
+    <nav class="nav">
+      <div class="navigation container">
+        <div class="logo">
+          <img src="images/logo.png">
+        </div>
+   
+
+        <div class="menu">
+          <div class="top-nav">
+            <div class="logo">
+              
+            </div>
+            <div class="close">
+              <i class="bx bx-x"></i>
+            </div>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link scroll-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="products.html" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+             <a href="#" class="nav-link icon cart">
+              <i class="fas fa-shopping-cart "></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <a href="cart.html" class="cart-icon">
+          <i class="bx bx-shopping-bag"></i>
+        </a>
+
+        <div class="hamburger">
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    
+   <img src="images/teddy_2.png" alt="" class="hero-img" />
+
+    <div class="hero-content">
+      <h2><span class="letter">ORI</span>NOCO</h2>
+      <h3>
+        <span>Une sélection de produits </br>Designée pour vous</span>
+      </h3>
+     </div>
+ 
         
-        <button class="cart">
-          <!--<a href="panier.html">-->
-          <i class="fas fa-shopping-cart fa-2x"></i>
-          <p>Votre panier</p>
-          <!--</a>-->
-        </button>
+       
        <div class="menu_shop">
         <table class="list">
           <tr>
-        <td>fzefze</td>
-        <td>eefzfzef</td>
-        <td>fexxx</td>
-        <td>efzefz</td>
+       <td> <a href="cart.html">Votre Panier <a href="cart.html"></td>
+       
       </tr>
       </table>
       </div>
-      <div class="social_container">
-      <a href="#"><i class="fab fa-facebook-square fa-2x icones"></i></a>
-      <a href="#"><i class="fab fa-instagram fa-2x icones"></i></a>
-      <a href="#"><i class="fab fa-twitter fa-2x icones"></i></a>
-
-     </div>
+     
   </nav>
   </div>
 </header>
   
 
 <main>
-  <h2>Notre sélection</h2>
-  <p>Retrouvez ci-dessous tous les modèles que nous proposons :</p>
+ 
   <div class="category">
-  <ul>
-    <li><button class="btn" id="ours"><p> Ours en peluche faits à la main</p></button></li>
-    <li><button class="btn" id="cameras"><p> Caméras vintage </p></button></li>
-    <li><button class="btn" id="furniture"><p> Meubles en chêne</p></button></li>
-  </ul> 
-  </div>       
+   <button class="btn" id="ours">Ours en peluche faits à la main</button>
+   <button class="btn" id="cameras">Caméras vintage</button>
+   <button class="btn" id="furniture">Meubles en chêne</button>
+ </div>
+
+
+  <div class="cardWrapper">
+ <div class = "card">
+        <!-- card left -->
+        <div class = "product-imgs">
+          <div class = "img-display">
+            <div class = "img-showcase">
+              <img src = "images/teddy_1.jpg" alt = "">
+              <img src = "images/teddy_2.jpg" alt = "">
+              <img src = "images/teddy_3.jpg" alt = "">
+              <img src = "images/teddy_4.jpg" alt = "">
+              <img src = "images/teddy_5.jpg" alt = "">
+            </div>
+          </div>
+          <div class = "img-select">
+            <div class = "img-item">
+              <a href = "#" data-id = "1">
+                <img src = "images/teddy_1.jpg" alt = "">
+              </a>
+            </div>
+
+            <div class = "img-item">
+              <a href = "#" data-id = "2">
+                <img src = "images/teddy_2.jpg" alt = "">
+              </a>
+            </div>
+
+            <div class = "img-item">
+              <a href = "#" data-id = "3">
+                <img src = "images/teddy_3.jpg" alt = "">
+              </a>
+            </div>
+
+            <div class = "img-item">
+              <a href = "#" data-id = "4">
+                <img src = "images/teddy_4.jpg" alt = "">
+              </a>
+            </div>
+
+             <div class = "img-item">
+              <a href = "#" data-id = "5">
+                <img src = "images/teddy_5.jpg" alt = "">
+              </a>
+            </div>
+          </div>
+</div>
+ 
 </main>
 
+<div class="product">
+  </div>
 
 <footer>
+   <div class="social_container">
+      <a href="#"><i class="fab fa-facebook-square fa-2x icones"></i></a>
+      <a href="#"><i class="fab fa-instagram fa-2x icones"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-2x icones"></i></a>
+
+     </div>
 </footer>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 <script src="index.js"></script>
